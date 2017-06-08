@@ -1,6 +1,6 @@
 name := "withoutContrib"
 
-version := "1.0"
+version := "2.0"
 
 scalaVersion := "2.10.5"
 
@@ -19,7 +19,7 @@ lazy val root = (project in file("."))
     inThisBuild(List(
       organization := organizationName,
       scalaVersion := scalaVersionBuild,
-      version := "0.1.0-SNAPSHOT"
+      version := "0.2.0-SNAPSHOT"
     )),
     name := "spark-akka-etl",
     mainClass in assembly := Some("com.juanjo.locuras.Test.main"),
